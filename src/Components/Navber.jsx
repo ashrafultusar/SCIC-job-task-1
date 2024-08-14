@@ -34,7 +34,7 @@ const Navber = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">CashWave</a>
+          <a className="btn btn-ghost text-xl font-extralight">echoMart</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

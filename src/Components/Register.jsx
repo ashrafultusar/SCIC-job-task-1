@@ -2,8 +2,33 @@ import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 
 const Register = () => {
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
+    const form = e.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const password = form.password.value;
+    const image = form.image.files[0];
+
+
+    try {
+      //upload image
+      
+      const image_url = await imageUploade(image) 
+      console.log(image_url)
+      // user signup
+      const result = await createUser(email, password);
+      console.log(result);
+
+      // update profile
+      await updateUserProfile(name, image_url);
+      navigate("/");
+      toast.success("Register successful");
+    } catch (err) {
+      // consol
+      console.log(err);
+      toast.error(err.message);
+    }
   };
 
   return (
