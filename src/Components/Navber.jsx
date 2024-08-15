@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { IoPersonCircleOutline } from "react-icons/io5";
+
 
 const Navber = () => {
   return (
@@ -24,7 +26,7 @@ const Navber = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
                 <a>Item 1</a>
@@ -36,7 +38,7 @@ const Navber = () => {
           </div>
           <a className="btn btn-ghost text-xl font-extralight">echoMart</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1">
             <li>
               <a>Item 1</a>
@@ -61,7 +63,8 @@ const Navber = () => {
             <div className="w-14 rounded-full">
               <img
                 alt="Tailwind CSS Navbar component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                src="<IoPersonCircleOutline />
+                "
               />
             </div>
           </div>

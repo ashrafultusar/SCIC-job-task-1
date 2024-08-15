@@ -1,0 +1,432 @@
+[
+    {
+        "Product Name": "Bluetooth Speaker",
+        "Product Image": "https://example.com/images/bluetooth_speaker.jpg",
+        "Description": "Portable Bluetooth speaker with deep bass.",
+        "Price": 39.99,
+        "Category": "Electronics",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "10:00:00"
+    },
+    {
+        "Product Name": "Wireless Mouse",
+        "Product Image": "https://example.com/images/wireless_mouse.jpg",
+        "Description": "A high-precision wireless mouse with ergonomic design.",
+        "Price": 29.99,
+        "Category": "Electronics",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "10:15:30"
+    },
+    {
+        "Product Name": "Bluetooth Headphones",
+        "Product Image": "https://example.com/images/bluetooth_headphones.jpg",
+        "Description": "Comfortable over-ear headphones with noise-cancellation.",
+        "Price": 59.99,
+        "Category": "Electronics",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "10:20:30"
+    },
+    {
+        "Product Name": "Smartphone Stand",
+        "Product Image": "https://example.com/images/smartphone_stand.jpg",
+        "Description": "Adjustable stand for smartphones and tablets.",
+        "Price": 14.99,
+        "Category": "Accessories",
+        "Ratings": 4.3,
+        "Date": "2024-08-15",
+        "Time": "10:25:30"
+    },
+    {
+        "Product Name": "Portable Charger",
+        "Product Image": "https://example.com/images/portable_charger.jpg",
+        "Description": "10,000mAh portable charger with fast charging support.",
+        "Price": 39.99,
+        "Category": "Electronics",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "10:30:30"
+    },
+    {
+        "Product Name": "Fitness Tracker",
+        "Product Image": "https://example.com/images/fitness_tracker.jpg",
+        "Description": "Waterproof fitness tracker with heart rate monitoring.",
+        "Price": 49.99,
+        "Category": "Wearables",
+        "Ratings": 4.8,
+        "Date": "2024-08-15",
+        "Time": "10:35:30"
+    },
+    {
+        "Product Name": "USB-C Hub",
+        "Product Image": "https://example.com/images/usb_c_hub.jpg",
+        "Description": "7-in-1 USB-C hub with HDMI, USB 3.0, and SD card reader.",
+        "Price": 24.99,
+        "Category": "Accessories",
+        "Ratings": 4.4,
+        "Date": "2024-08-15",
+        "Time": "10:40:30"
+    },
+    {
+        "Product Name": "Gaming Keyboard",
+        "Product Image": "https://example.com/images/gaming_keyboard.jpg",
+        "Description": "Mechanical gaming keyboard with RGB lighting.",
+        "Price": 89.99,
+        "Category": "Electronics",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "10:45:30"
+    },
+    {
+        "Product Name": "Smart Light Bulb",
+        "Product Image": "https://example.com/images/smart_light_bulb.jpg",
+        "Description": "Voice-controlled smart light bulb with adjustable brightness.",
+        "Price": 19.99,
+        "Category": "Home Automation",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "10:50:30"
+    },
+    {
+        "Product Name": "4K Action Camera",
+        "Product Image": "https://example.com/images/4k_action_camera.jpg",
+        "Description": "Waterproof 4K action camera with Wi-Fi and remote control.",
+        "Price": 79.99,
+        "Category": "Electronics",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "10:55:30"
+    },
+    {
+        "Product Name": "Laptop Cooling Pad",
+        "Product Image": "https://example.com/images/laptop_cooling_pad.jpg",
+        "Description": "Adjustable laptop cooling pad with 5 cooling fans.",
+        "Price": 29.99,
+        "Category": "Accessories",
+        "Ratings": 4.4,
+        "Date": "2024-08-15",
+        "Time": "11:00:30"
+    },
+    {
+        "Product Name": "Wireless Earbuds",
+        "Product Image": "https://example.com/images/wireless_earbuds.jpg",
+        "Description": "True wireless earbuds with Bluetooth 5.0 and charging case.",
+        "Price": 49.99,
+        "Category": "Electronics",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "11:05:30"
+    },
+    {
+        "Product Name": "Smart Thermostat",
+        "Product Image": "https://example.com/images/smart_thermostat.jpg",
+        "Description": "Wi-Fi enabled smart thermostat with voice control.",
+        "Price": 129.99,
+        "Category": "Home Automation",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "11:10:30"
+    },
+    {
+        "Product Name": "VR Headset",
+        "Product Image": "https://example.com/images/vr_headset.jpg",
+        "Description": "Immersive VR headset with built-in audio.",
+        "Price": 299.99,
+        "Category": "Electronics",
+        "Ratings": 4.8,
+        "Date": "2024-08-15",
+        "Time": "11:15:30"
+    },
+    {
+        "Product Name": "Electric Kettle",
+        "Product Image": "https://example.com/images/electric_kettle.jpg",
+        "Description": "Fast-boiling electric kettle with temperature control.",
+        "Price": 34.99,
+        "Category": "Kitchen Appliances",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "11:20:30"
+    },
+    {
+        "Product Name": "Wireless Charger",
+        "Product Image": "https://example.com/images/wireless_charger.jpg",
+        "Description": "Fast wireless charger with multi-device support.",
+        "Price": 29.99,
+        "Category": "Electronics",
+        "Ratings": 4.4,
+        "Date": "2024-08-15",
+        "Time": "11:25:30"
+    },
+    {
+        "Product Name": "Robot Vacuum",
+        "Product Image": "https://example.com/images/robot_vacuum.jpg",
+        "Description": "Smart robot vacuum with Wi-Fi and voice control.",
+        "Price": 249.99,
+        "Category": "Home Appliances",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "11:30:30"
+    },
+    {
+        "Product Name": "Noise-Canceling Headphones",
+        "Product Image": "https://example.com/images/noise_canceling_headphones.jpg",
+        "Description": "Premium noise-canceling headphones with superior sound.",
+        "Price": 199.99,
+        "Category": "Electronics",
+        "Ratings": 4.8,
+        "Date": "2024-08-15",
+        "Time": "11:35:30"
+    },
+    {
+        "Product Name": "Smartwatch",
+        "Product Image": "https://example.com/images/smartwatch.jpg",
+        "Description": "Water-resistant smartwatch with fitness tracking features.",
+        "Price": 149.99,
+        "Category": "Wearables",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "11:40:30"
+    },
+    {
+        "Product Name": "Portable Bluetooth Speaker",
+        "Product Image": "https://example.com/images/bluetooth_speaker.jpg",
+        "Description": "Compact portable speaker with deep bass and long battery life.",
+        "Price": 39.99,
+        "Category": "Electronics",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "11:45:30"
+    },
+    {
+        "Product Name": "Smart Door Lock",
+        "Product Image": "https://example.com/images/smart_door_lock.jpg",
+        "Description": "Secure smart door lock with keyless entry and app control.",
+        "Price": 179.99,
+        "Category": "Home Automation",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "11:50:30"
+    },
+    {
+        "Product Name": "Electric Toothbrush",
+        "Product Image": "https://example.com/images/electric_toothbrush.jpg",
+        "Description": "Rechargeable electric toothbrush with multiple modes.",
+        "Price": 49.99,
+        "Category": "Personal Care",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "11:55:30"
+    },
+    {
+        "Product Name": "Smart Air Purifier",
+        "Product Image": "https://example.com/images/smart_air_purifier.jpg",
+        "Description": "Smart air purifier with real-time air quality monitoring.",
+        "Price": 129.99,
+        "Category": "Home Appliances",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "12:00:30"
+    },
+    {
+        "Product Name": "Waterproof Bluetooth Speaker",
+        "Product Image": "https://example.com/images/waterproof_bluetooth_speaker.jpg",
+        "Description": "Waterproof portable speaker with Bluetooth 5.0.",
+        "Price": 49.99,
+        "Category": "Electronics",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "12:05:30"
+    },
+    {
+        "Product Name": "Wireless Gaming Mouse",
+        "Product Image": "https://example.com/images/wireless_gaming_mouse.jpg",
+        "Description": "Ergonomic wireless gaming mouse with adjustable DPI.",
+        "Price": 69.99,
+        "Category": "Electronics",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "12:10:30"
+    },
+    {
+        "Product Name": "Smart Coffee Maker",
+        "Product Image": "https://example.com/images/smart_coffee_maker.jpg",
+        "Description": "Wi-Fi enabled coffee maker with voice control and scheduling.",
+        "Price": 99.99,
+        "Category": "Kitchen Appliances",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "12:15:30"
+    },
+    {
+        "Product Name": "Bluetooth Soundbar",
+        "Product Image": "https://example.com/images/bluetooth_soundbar.jpg",
+        "Description": "High-definition soundbar with Bluetooth and subwoofer.",
+        "Price": 149.99,
+        "Category": "Electronics",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "12:20:30"
+    },
+    {
+        "Product Name": "Robot Mop",
+        "Product Image": "https://example.com/images/robot_mop.jpg",
+        "Description": "Smart robot mop with water tank and voice control.",
+        "Price": 199.99,
+        "Category": "Home Appliances",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "12:25:30"
+    },
+    {
+        "Product Name": "Gaming Headset",
+        "Product Image": "https://example.com/images/gaming_headset.jpg",
+        "Description": "Over-ear gaming headset with surround sound and noise-canceling mic.",
+        "Price": 79.99,
+        "Category": "Electronics",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "12:30:30"
+    },
+    {
+        "Product Name": "Electric Pressure Cooker",
+        "Product Image": "https://example.com/images/electric_pressure_cooker.jpg",
+        "Description": "Multi-functional electric pressure cooker with 14 cooking programs.",
+        "Price": 89.99,
+        "Category": "Kitchen Appliances",
+        "Ratings": 4.8,
+        "Date": "2024-08-15",
+        "Time": "12:35:30"
+    },
+    {
+        "Product Name": "Wireless Security Camera",
+        "Product Image": "https://example.com/images/wireless_security_camera.jpg",
+        "Description": "1080p wireless security camera with night vision and motion detection.",
+        "Price": 99.99,
+        "Category": "Home Security",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "12:40:30"
+    },
+    {
+        "Product Name": "Smart Doorbell",
+        "Product Image": "https://example.com/images/smart_doorbell.jpg",
+        "Description": "Wi-Fi enabled video doorbell with two-way audio.",
+        "Price": 129.99,
+        "Category": "Home Security",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "12:45:30"
+    },
+    {
+        "Product Name": "Cordless Vacuum Cleaner",
+        "Product Image": "https://example.com/images/cordless_vacuum_cleaner.jpg",
+        "Description": "Lightweight cordless vacuum cleaner with powerful suction.",
+        "Price": 149.99,
+        "Category": "Home Appliances",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "12:50:30"
+    },
+    {
+        "Product Name": "Electric Grill",
+        "Product Image": "https://example.com/images/electric_grill.jpg",
+        "Description": "Smokeless electric grill with adjustable temperature settings.",
+        "Price": 69.99,
+        "Category": "Kitchen Appliances",
+        "Ratings": 4.4,
+        "Date": "2024-08-15",
+        "Time": "12:55:30"
+    },
+    {
+        "Product Name": "Smart Wi-Fi Plug",
+        "Product Image": "https://example.com/images/smart_wifi_plug.jpg",
+        "Description": "Smart plug with Wi-Fi control and voice assistant compatibility.",
+        "Price": 19.99,
+        "Category": "Home Automation",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "13:00:30"
+    },
+    {
+        "Product Name": "Electric Scooter",
+        "Product Image": "https://example.com/images/electric_scooter.jpg",
+        "Description": "Foldable electric scooter with 25km range and 15mph top speed.",
+        "Price": 349.99,
+        "Category": "Outdoor",
+        "Ratings": 4.7,
+        "Date": "2024-08-15",
+        "Time": "13:05:30"
+    },
+    {
+        "Product Name": "Air Fryer",
+        "Product Image": "https://example.com/images/air_fryer.jpg",
+        "Description": "Digital air fryer with touchscreen and 8 cooking presets.",
+        "Price": 99.99,
+        "Category": "Kitchen Appliances",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "13:10:30"
+    },
+    {
+        "Product Name": "Wireless Bluetooth Adapter",
+        "Product Image": "https://example.com/images/bluetooth_adapter.jpg",
+        "Description": "Wireless Bluetooth adapter for audio devices with 3.5mm jack.",
+        "Price": 14.99,
+        "Category": "Electronics",
+        "Ratings": 4.3,
+        "Date": "2024-08-15",
+        "Time": "13:15:30"
+    },
+    {
+        "Product Name": "Smart Scale",
+        "Product Image": "https://example.com/images/smart_scale.jpg",
+        "Description": "Bluetooth smart scale with body composition analysis.",
+        "Price": 49.99,
+        "Category": "Personal Care",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "13:20:30"
+    },
+    {
+        "Product Name": "Smart Baby Monitor",
+        "Product Image": "https://example.com/images/smart_baby_monitor.jpg",
+        "Description": "Smart baby monitor with HD camera and two-way audio.",
+        "Price": 129.99,
+        "Category": "Baby Products",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "13:25:30"
+    },
+    {
+        "Product Name": "Electric Heated Blanket",
+        "Product Image": "https://example.com/images/electric_heated_blanket.jpg",
+        "Description": "Electric heated blanket with adjustable heat settings.",
+        "Price": 59.99,
+        "Category": "Home & Living",
+        "Ratings": 4.5,
+        "Date": "2024-08-15",
+        "Time": "13:30:30"
+    },
+    {
+        "Product Name": "Noise-Canceling Earplugs",
+        "Product Image": "https://example.com/images/noise_canceling_earplugs.jpg",
+        "Description": "Reusable noise-canceling earplugs for sleep and travel.",
+        "Price": 19.99,
+        "Category": "Personal Care",
+        "Ratings": 4.4,
+        "Date": "2024-08-15",
+        "Time": "13:35:30"
+    },
+    {
+        "Product Name": "Smart Garage Door Opener",
+        "Product Image": "https://example.com/images/smart_garage_door_opener.jpg",
+        "Description": "Wi-Fi enabled garage door opener with app control.",
+        "Price": 79.99,
+        "Category": "Home Automation",
+        "Ratings": 4.6,
+        "Date": "2024-08-15",
+        "Time": "13:40:30"
+    }
+]
