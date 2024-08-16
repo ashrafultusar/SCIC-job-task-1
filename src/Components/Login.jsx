@@ -1,12 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useLoaderData, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProviders";
 import { Helmet } from "react-helmet-async";
+import { toast } from "react-toastify";
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
-
+const navigate=useNavigate()
+const location=useLocation()
+  const from=location.state?.from?.pathname || "/"
+  
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -17,6 +22,8 @@ const Login = () => {
       .then(result => {
         const user = result.user;
         console.log(user);
+        // toast.success("login successfully")
+        navigate('/')
 })
 
   };

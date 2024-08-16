@@ -1,7 +1,7 @@
 [
     {
-        "Product Name": "Bluetooth Speaker",
-        "Product Image": "https://example.com/images/bluetooth_speaker.jpg",
+        "product_name": "Bluetooth Speaker",
+        "product_image": "https://i.ibb.co/L6C1H6C/61-Ufclz-Dgd-L-AC-SL1250.jpg",
         "Description": "Portable Bluetooth speaker with deep bass.",
         "Price": 39.99,
         "Category": "Electronics",
@@ -10,8 +10,8 @@
         "Time": "10:00:00"
     },
     {
-        "Product Name": "Wireless Mouse",
-        "Product Image": "https://example.com/images/wireless_mouse.jpg",
+        "product_name": "Wireless Mouse",
+        "product_image": "https://i.ibb.co/kDdf0Bd/Sd0d34db47b8b4851ae01de6ef4ca00e8x-jpg-640x640-Q90-jpg.webp",
         "Description": "A high-precision wireless mouse with ergonomic design.",
         "Price": 29.99,
         "Category": "Electronics",
@@ -20,8 +20,8 @@
         "Time": "10:15:30"
     },
     {
-        "Product Name": "Bluetooth Headphones",
-        "Product Image": "https://example.com/images/bluetooth_headphones.jpg",
+        "product_name": "Bluetooth Headphones",
+        "product_image": "https://i.ibb.co/z68dw6t/bluetoothheadphones-2048px-0876.jpg",
         "Description": "Comfortable over-ear headphones with noise-cancellation.",
         "Price": 59.99,
         "Category": "Electronics",
@@ -30,8 +30,8 @@
         "Time": "10:20:30"
     },
     {
-        "Product Name": "Smartphone Stand",
-        "Product Image": "https://example.com/images/smartphone_stand.jpg",
+        "product_name": "Smartphone Stand",
+        "product_image": "https://i.ibb.co/4Ttp0nw/Lamicall-Adjustable-Cell-Phone-Stand-FI.webp",
         "Description": "Adjustable stand for smartphones and tablets.",
         "Price": 14.99,
         "Category": "Accessories",
@@ -40,8 +40,8 @@
         "Time": "10:25:30"
     },
     {
-        "Product Name": "Portable Charger",
-        "Product Image": "https://example.com/images/portable_charger.jpg",
+        "product_name": "Portable Charger",
+        "product_image": "https://i.ibb.co/s10t9ND/Best-Portable-Chargers-of-2024-tout-bd0829ba3e8b404db7b89ea04d10ed9a.jpg",
         "Description": "10,000mAh portable charger with fast charging support.",
         "Price": 39.99,
         "Category": "Electronics",
@@ -50,8 +50,8 @@
         "Time": "10:30:30"
     },
     {
-        "Product Name": "Fitness Tracker",
-        "Product Image": "https://example.com/images/fitness_tracker.jpg",
+        "product_name": "Fitness Tracker",
+        "product_image": "https://i.ibb.co/3NVnmYZ/cropped-blog-pic.webp",
         "Description": "Waterproof fitness tracker with heart rate monitoring.",
         "Price": 49.99,
         "Category": "Wearables",
@@ -60,8 +60,8 @@
         "Time": "10:35:30"
     },
     {
-        "Product Name": "USB-C Hub",
-        "Product Image": "https://example.com/images/usb_c_hub.jpg",
+        "product_name": "USB-C Hub",
+        "product_image": "https://i.ibb.co/Tb7t8Pg/61-S7-Asj36-AL-AC-SL1500.jpg",
         "Description": "7-in-1 USB-C hub with HDMI, USB 3.0, and SD card reader.",
         "Price": 24.99,
         "Category": "Accessories",
@@ -70,8 +70,8 @@
         "Time": "10:40:30"
     },
     {
-        "Product Name": "Gaming Keyboard",
-        "Product Image": "https://example.com/images/gaming_keyboard.jpg",
+        "product_name": "Gaming Keyboard",
+        "product_image": "https://i.ibb.co/zf6dTv4/rgb.jpg",
         "Description": "Mechanical gaming keyboard with RGB lighting.",
         "Price": 89.99,
         "Category": "Electronics",
@@ -80,8 +80,8 @@
         "Time": "10:45:30"
     },
     {
-        "Product Name": "Smart Light Bulb",
-        "Product Image": "https://example.com/images/smart_light_bulb.jpg",
+        "product_name": "Smart Light Bulb",
+        "product_image": "https://i.ibb.co/znZd3Mr/color-changing-smart-led-bulb-promo-philips-hue-lifx-c-by-ge-alexa-google-assistant-home-echo.webp",
         "Description": "Voice-controlled smart light bulb with adjustable brightness.",
         "Price": 19.99,
         "Category": "Home Automation",
@@ -90,8 +90,8 @@
         "Time": "10:50:30"
     },
     {
-        "Product Name": "4K Action Camera",
-        "Product Image": "https://example.com/images/4k_action_camera.jpg",
+        "product_name": "4K Action Camera",
+        "product_image": "https://i.ibb.co/CH0DPVR/images.jpg",
         "Description": "Waterproof 4K action camera with Wi-Fi and remote control.",
         "Price": 79.99,
         "Category": "Electronics",
@@ -100,8 +100,8 @@
         "Time": "10:55:30"
     },
     {
-        "Product Name": "Laptop Cooling Pad",
-        "Product Image": "https://example.com/images/laptop_cooling_pad.jpg",
+        "product_name": "Laptop Cooling Pad",
+        "product_image": "https://i.ibb.co/Y8kPjBT/laptop-cooling-pad-1666140335366.jpg",
         "Description": "Adjustable laptop cooling pad with 5 cooling fans.",
         "Price": 29.99,
         "Category": "Accessories",
@@ -110,8 +110,8 @@
         "Time": "11:00:30"
     },
     {
-        "Product Name": "Wireless Earbuds",
-        "Product Image": "https://example.com/images/wireless_earbuds.jpg",
+        "product_name": "Wireless Earbuds",
+        "product_image": "https://i.ibb.co/2n1spH7/wireless-earbuds-1661183784.jpg",
         "Description": "True wireless earbuds with Bluetooth 5.0 and charging case.",
         "Price": 49.99,
         "Category": "Electronics",
@@ -120,8 +120,8 @@
         "Time": "11:05:30"
     },
     {
-        "Product Name": "Smart Thermostat",
-        "Product Image": "https://example.com/images/smart_thermostat.jpg",
+        "product_name": "Smart Thermostat",
+        "product_image": "https://i.ibb.co/BCw1YZ7/images-1.jpg",
         "Description": "Wi-Fi enabled smart thermostat with voice control.",
         "Price": 129.99,
         "Category": "Home Automation",
@@ -130,8 +130,8 @@
         "Time": "11:10:30"
     },
     {
-        "Product Name": "VR Headset",
-        "Product Image": "https://example.com/images/vr_headset.jpg",
+        "product_name": "VR Headset",
+        "product_image": "https://i.ibb.co/zFQJCmB/Best-VR-Headsets-for-an-Immersive-Virtual-Reality-Experience.jpg",
         "Description": "Immersive VR headset with built-in audio.",
         "Price": 299.99,
         "Category": "Electronics",
@@ -140,8 +140,8 @@
         "Time": "11:15:30"
     },
     {
-        "Product Name": "Electric Kettle",
-        "Product Image": "https://example.com/images/electric_kettle.jpg",
+        "product_name": "Electric Kettle",
+        "product_image": "https://i.ibb.co/JtKN8j7/The-Best-Electric-Kettle-11042018-V1.webp",
         "Description": "Fast-boiling electric kettle with temperature control.",
         "Price": 34.99,
         "Category": "Kitchen Appliances",
@@ -150,8 +150,8 @@
         "Time": "11:20:30"
     },
     {
-        "Product Name": "Wireless Charger",
-        "Product Image": "https://example.com/images/wireless_charger.jpg",
+        "product_name": "Wireless Charger",
+        "product_image": "https://i.ibb.co/q1CXrLk/07q-U3b-Dni-Pmv-Jg-Agvi-OCsff-2.webp",
         "Description": "Fast wireless charger with multi-device support.",
         "Price": 29.99,
         "Category": "Electronics",
@@ -160,8 +160,8 @@
         "Time": "11:25:30"
     },
     {
-        "Product Name": "Robot Vacuum",
-        "Product Image": "https://example.com/images/robot_vacuum.jpg",
+        "product_name": "Robot Vacuum",
+        "product_image": "https://i.ibb.co/VvQwBRh/122933128-468127bc-df66-413a-86f0-dde1d9d1b9e0.jpg",
         "Description": "Smart robot vacuum with Wi-Fi and voice control.",
         "Price": 249.99,
         "Category": "Home Appliances",
@@ -170,8 +170,8 @@
         "Time": "11:30:30"
     },
     {
-        "Product Name": "Noise-Canceling Headphones",
-        "Product Image": "https://example.com/images/noise_canceling_headphones.jpg",
+        "product_name": "Noise-Canceling Headphones",
+        "product_image": "https://i.ibb.co/hgSNK42/noise-cancelling-headphone-2048px-0862-2x1-1.webp",
         "Description": "Premium noise-canceling headphones with superior sound.",
         "Price": 199.99,
         "Category": "Electronics",
@@ -180,8 +180,8 @@
         "Time": "11:35:30"
     },
     {
-        "Product Name": "Smartwatch",
-        "Product Image": "https://example.com/images/smartwatch.jpg",
+        "product_name": "Smartwatch",
+        "product_image": "https://i.ibb.co/hdNdqXm/Fk-Gwe-Me-B7hd-Pga-SFQdgsfj-1200-80.jpg",
         "Description": "Water-resistant smartwatch with fitness tracking features.",
         "Price": 149.99,
         "Category": "Wearables",
@@ -190,8 +190,8 @@
         "Time": "11:40:30"
     },
     {
-        "Product Name": "Portable Bluetooth Speaker",
-        "Product Image": "https://example.com/images/bluetooth_speaker.jpg",
+        "product_name": "Portable Bluetooth Speaker",
+        "product_image": "https://i.ibb.co/hXsYJWx/portablebluetoothspeakers-2048px-3321-2x1-1.webp",
         "Description": "Compact portable speaker with deep bass and long battery life.",
         "Price": 39.99,
         "Category": "Electronics",
@@ -200,8 +200,8 @@
         "Time": "11:45:30"
     },
     {
-        "Product Name": "Smart Door Lock",
-        "Product Image": "https://example.com/images/smart_door_lock.jpg",
+        "product_name": "Smart Door Lock",
+        "product_image": "https://i.ibb.co/sRCmwmg/images.jpg",
         "Description": "Secure smart door lock with keyless entry and app control.",
         "Price": 179.99,
         "Category": "Home Automation",
@@ -210,8 +210,8 @@
         "Time": "11:50:30"
     },
     {
-        "Product Name": "Electric Toothbrush",
-        "Product Image": "https://example.com/images/electric_toothbrush.jpg",
+        "product_name": "Electric Toothbrush",
+        "product_image": "https://i.ibb.co/98s5sd5/images-1.jpg",
         "Description": "Rechargeable electric toothbrush with multiple modes.",
         "Price": 49.99,
         "Category": "Personal Care",
@@ -220,8 +220,8 @@
         "Time": "11:55:30"
     },
     {
-        "Product Name": "Smart Air Purifier",
-        "Product Image": "https://example.com/images/smart_air_purifier.jpg",
+        "product_name": "Smart Air Purifier",
+        "product_image": "https://i.ibb.co/2q1Yh6b/0f3be834-e490-4021-ab21-0759ec861aa8-Next-Generation-Io-T-Enabled-Air-Purifier.jpg",
         "Description": "Smart air purifier with real-time air quality monitoring.",
         "Price": 129.99,
         "Category": "Home Appliances",
@@ -230,8 +230,8 @@
         "Time": "12:00:30"
     },
     {
-        "Product Name": "Waterproof Bluetooth Speaker",
-        "Product Image": "https://example.com/images/waterproof_bluetooth_speaker.jpg",
+        "product_name": "Waterproof Bluetooth Speaker",
+        "product_image": "https://i.ibb.co/Qd88sPv/best-waterproof-bluetooth-speakers-in-india.jpg",
         "Description": "Waterproof portable speaker with Bluetooth 5.0.",
         "Price": 49.99,
         "Category": "Electronics",
@@ -240,8 +240,8 @@
         "Time": "12:05:30"
     },
     {
-        "Product Name": "Wireless Gaming Mouse",
-        "Product Image": "https://example.com/images/wireless_gaming_mouse.jpg",
+        "product_name": "Wireless Gaming Mouse",
+        "product_image": "https://i.ibb.co/x20jgHd/images-2.jpg",
         "Description": "Ergonomic wireless gaming mouse with adjustable DPI.",
         "Price": 69.99,
         "Category": "Electronics",
@@ -250,8 +250,8 @@
         "Time": "12:10:30"
     },
     {
-        "Product Name": "Smart Coffee Maker",
-        "Product Image": "https://example.com/images/smart_coffee_maker.jpg",
+        "product_name": "Smart Coffee Maker",
+        "product_image": "https://i.ibb.co/mXD8WN7/images-3.jpg",
         "Description": "Wi-Fi enabled coffee maker with voice control and scheduling.",
         "Price": 99.99,
         "Category": "Kitchen Appliances",
@@ -260,8 +260,8 @@
         "Time": "12:15:30"
     },
     {
-        "Product Name": "Bluetooth Soundbar",
-        "Product Image": "https://example.com/images/bluetooth_soundbar.jpg",
+        "product_name": "Bluetooth Soundbar",
+        "product_image": "https://i.ibb.co/St2TbYv/How-to-pair-Bluetooth-soundbar-to-Fire-TV.jpg",
         "Description": "High-definition soundbar with Bluetooth and subwoofer.",
         "Price": 149.99,
         "Category": "Electronics",
@@ -270,8 +270,8 @@
         "Time": "12:20:30"
     },
     {
-        "Product Name": "Robot Mop",
-        "Product Image": "https://example.com/images/robot_mop.jpg",
+        "product_name": "Robot Mop",
+        "product_image": "https://i.ibb.co/3r04VkB/Bto2-Fr-HJE9-RWid-D7b55-R5-R.jpg",
         "Description": "Smart robot mop with water tank and voice control.",
         "Price": 199.99,
         "Category": "Home Appliances",
@@ -280,8 +280,8 @@
         "Time": "12:25:30"
     },
     {
-        "Product Name": "Gaming Headset",
-        "Product Image": "https://example.com/images/gaming_headset.jpg",
+        "product_name": "Gaming Headset",
+        "product_image": "https://i.ibb.co/qmTwmn3/Bshb-C2w-UURxs5-XX5c-XXEm-C.jpg",
         "Description": "Over-ear gaming headset with surround sound and noise-canceling mic.",
         "Price": 79.99,
         "Category": "Electronics",
@@ -290,8 +290,8 @@
         "Time": "12:30:30"
     },
     {
-        "Product Name": "Electric Pressure Cooker",
-        "Product Image": "https://example.com/images/electric_pressure_cooker.jpg",
+        "product_name": "Electric Pressure Cooker",
+        "product_image": "https://i.ibb.co/PCgT1Sf/images-4.jpg",
         "Description": "Multi-functional electric pressure cooker with 14 cooking programs.",
         "Price": 89.99,
         "Category": "Kitchen Appliances",
@@ -300,8 +300,8 @@
         "Time": "12:35:30"
     },
     {
-        "Product Name": "Wireless Security Camera",
-        "Product Image": "https://example.com/images/wireless_security_camera.jpg",
+        "product_name": "Wireless Security Camera",
+        "product_image": "https://i.ibb.co/9ytMgKX/images-5.jpg",
         "Description": "1080p wireless security camera with night vision and motion detection.",
         "Price": 99.99,
         "Category": "Home Security",
@@ -310,8 +310,8 @@
         "Time": "12:40:30"
     },
     {
-        "Product Name": "Smart Doorbell",
-        "Product Image": "https://example.com/images/smart_doorbell.jpg",
+        "product_name": "Smart Doorbell",
+        "product_image": "https://i.ibb.co/BjfDD6X/Header-Image.jpg",
         "Description": "Wi-Fi enabled video doorbell with two-way audio.",
         "Price": 129.99,
         "Category": "Home Security",
@@ -320,8 +320,8 @@
         "Time": "12:45:30"
     },
     {
-        "Product Name": "Cordless Vacuum Cleaner",
-        "Product Image": "https://example.com/images/cordless_vacuum_cleaner.jpg",
+        "product_name": "Cordless Vacuum Cleaner",
+        "product_image": "https://i.ibb.co/HhsHpwQ/images-7.jpg",
         "Description": "Lightweight cordless vacuum cleaner with powerful suction.",
         "Price": 149.99,
         "Category": "Home Appliances",
@@ -330,8 +330,8 @@
         "Time": "12:50:30"
     },
     {
-        "Product Name": "Electric Grill",
-        "Product Image": "https://example.com/images/electric_grill.jpg",
+        "product_name": "Electric Grill",
+        "product_image": "https://i.ibb.co/GPV3ghs/62eebc9060bd-electric-grill-veggies.jpg",
         "Description": "Smokeless electric grill with adjustable temperature settings.",
         "Price": 69.99,
         "Category": "Kitchen Appliances",
@@ -340,8 +340,8 @@
         "Time": "12:55:30"
     },
     {
-        "Product Name": "Smart Wi-Fi Plug",
-        "Product Image": "https://example.com/images/smart_wifi_plug.jpg",
+        "product_name": "Smart Wi-Fi Plug",
+        "product_image": "https://i.ibb.co/nnYs2r1/gm-706f4b4d-ac8e-4ef5-a3df-8abaf37652b3-smart-plugsnewsmain.jpg",
         "Description": "Smart plug with Wi-Fi control and voice assistant compatibility.",
         "Price": 19.99,
         "Category": "Home Automation",
@@ -350,8 +350,8 @@
         "Time": "13:00:30"
     },
     {
-        "Product Name": "Electric Scooter",
-        "Product Image": "https://example.com/images/electric_scooter.jpg",
+        "product_name": "Electric Scooter",
+        "product_image": "https://i.ibb.co/CmCmzQx/scooter-gear-3-Front-3-4.webp",
         "Description": "Foldable electric scooter with 25km range and 15mph top speed.",
         "Price": 349.99,
         "Category": "Outdoor",
@@ -360,8 +360,8 @@
         "Time": "13:05:30"
     },
     {
-        "Product Name": "Air Fryer",
-        "Product Image": "https://example.com/images/air_fryer.jpg",
+        "product_name": "Air Fryer",
+        "product_image": "https://i.ibb.co/pJZqRGh/images.jpg",
         "Description": "Digital air fryer with touchscreen and 8 cooking presets.",
         "Price": 99.99,
         "Category": "Kitchen Appliances",
@@ -370,8 +370,8 @@
         "Time": "13:10:30"
     },
     {
-        "Product Name": "Wireless Bluetooth Adapter",
-        "Product Image": "https://example.com/images/bluetooth_adapter.jpg",
+        "product_name": "Wireless Bluetooth Adapter",
+        "product_image": "https://i.ibb.co/PTLwF7J/images-1.jpg",
         "Description": "Wireless Bluetooth adapter for audio devices with 3.5mm jack.",
         "Price": 14.99,
         "Category": "Electronics",
@@ -380,8 +380,8 @@
         "Time": "13:15:30"
     },
     {
-        "Product Name": "Smart Scale",
-        "Product Image": "https://example.com/images/smart_scale.jpg",
+        "product_name": "Smart Scale",
+        "product_image": "https://i.ibb.co/5BPX7mF/945694-The-6-Best-Smart-Scales-of-2021-1200x628-Facebook-1200x628.jpg",
         "Description": "Bluetooth smart scale with body composition analysis.",
         "Price": 49.99,
         "Category": "Personal Care",
@@ -390,8 +390,8 @@
         "Time": "13:20:30"
     },
     {
-        "Product Name": "Smart Baby Monitor",
-        "Product Image": "https://example.com/images/smart_baby_monitor.jpg",
+        "product_name": "Smart Baby Monitor",
+        "product_image": "https://i.ibb.co/T8SmbF2/images-2.jpg",
         "Description": "Smart baby monitor with HD camera and two-way audio.",
         "Price": 129.99,
         "Category": "Baby Products",
@@ -400,8 +400,8 @@
         "Time": "13:25:30"
     },
     {
-        "Product Name": "Electric Heated Blanket",
-        "Product Image": "https://example.com/images/electric_heated_blanket.jpg",
+        "product_name": "Electric Heated Blanket",
+        "product_image": "https://i.ibb.co/5j682h5/electricblankets-2048px-3638.webp",
         "Description": "Electric heated blanket with adjustable heat settings.",
         "Price": 59.99,
         "Category": "Home & Living",
@@ -410,8 +410,8 @@
         "Time": "13:30:30"
     },
     {
-        "Product Name": "Noise-Canceling Earplugs",
-        "Product Image": "https://example.com/images/noise_canceling_earplugs.jpg",
+        "product_name": "Noise-Canceling Earplugs",
+        "product_image": "https://i.ibb.co/6JXHNgg/images-3.jpg",
         "Description": "Reusable noise-canceling earplugs for sleep and travel.",
         "Price": 19.99,
         "Category": "Personal Care",
@@ -420,8 +420,8 @@
         "Time": "13:35:30"
     },
     {
-        "Product Name": "Smart Garage Door Opener",
-        "Product Image": "https://example.com/images/smart_garage_door_opener.jpg",
+        "product_name": "Smart Garage Door Opener",
+        "product_image": "https://i.ibb.co/LNQM1sG/myq-hero-mobile.png",
         "Description": "Wi-Fi enabled garage door opener with app control.",
         "Price": 79.99,
         "Category": "Home Automation",

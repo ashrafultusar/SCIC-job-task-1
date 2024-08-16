@@ -1,8 +1,18 @@
 import { Link } from "react-router-dom";
 import { IoPersonCircleOutline } from "react-icons/io5";
-
+import { useContext } from "react";
+import { AuthContext } from "../Providers/AuthProviders";
 
 const Navber = () => {
+  const { user, logOut } = useContext(AuthContext);
+  // console.log(user);
+
+  const handelLogout = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => console.log(error));
+  };
+
   return (
     <div className="container mx-auto ">
       <div className="navbar bg-[#0a1316] text-white">
@@ -29,10 +39,9 @@ const Navber = () => {
               className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
+                <Link>
+                  <a>All Products</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -41,33 +50,41 @@ const Navber = () => {
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Item 3</a>
+              <Link>
+                <a>All Products</a>
+              </Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="/login">
-            <button className=" bg-[#b58753] px-3 py-2 rounded-md mr-2 ">
-              Login
-            </button>
-          </Link>
-
-          <div
-            tabIndex={0}
-            role="button"
-            className="btn btn-ghost btn-circle avatar"
-          >
-            <div className="w-14 rounded-full">
-              <img
-                alt="Tailwind CSS Navbar component"
-                src="<IoPersonCircleOutline />
-                "
-              />
-            </div>
-          </div>
+          {user ? (
+            <>
+              <button
+                onClick={handelLogout}
+                className=" bg-[#b58753] px-3 py-2 rounded-md mr-2 "
+              >
+                Logout
+              </button>
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost btn-circle avatar"
+              >
+                <div className="w-14 rounded-full">
+                  <img
+                    alt="Tailwind CSS Navbar component"
+                    src={user.photoURL}
+                  />
+                </div>
+              </div>
+            </>
+          ) : (
+            <Link to="/login">
+              <button className=" bg-[#b58753] px-3 py-2 rounded-md mr-2 ">
+                Login
+              </button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

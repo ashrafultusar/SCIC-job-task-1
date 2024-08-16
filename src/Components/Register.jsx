@@ -154,12 +154,12 @@ createUser(data.email, data.password)
           </button>
 
           <p className="px-6 text-sm text-center mt-2 text-gray-400">
-            Don't have an account yet?{" "}
+            Already have an account
             <Link
-              to="/register"
+              to="/login"
               className="hover:underline hover:text-rose-500 text-redM"
             >
-              Register Here
+             Login
             </Link>
           </p>
         </div>
