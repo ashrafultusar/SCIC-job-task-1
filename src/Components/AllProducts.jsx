@@ -1,22 +1,20 @@
-import '../CSS/AllProduct.css'
+import "../CSS/AllProduct.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const AllProducts = () => {
-  // const [itemPerPage, setItemPerPage] = useState(5);
-  // const [currentPage, setCurrentPage] = useState(1);
-
   const [products, setProducts] = useState([]);
   const [count, setCount] = useState(0);
- const [itemPerPage ,setItemPerPage]=useState(10)
-const [currentPage,setCurrentPage]=useState(0)
-
+  const [itemPerPage, setItemPerPage] = useState(10);
+  const [currentPage, setCurrentPage] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allproducts")
+    fetch(
+      `http://localhost:5000/allproducts?page=${currentPage}&size=${itemPerPage}`
+    )
       .then((res) => res.json())
       .then((data) => setProducts(data));
-  }, []);
+  }, [currentPage, itemPerPage]);
   console.log(products);
 
   // paigenation section code
@@ -25,33 +23,27 @@ const [currentPage,setCurrentPage]=useState(0)
       .then((res) => res.json())
       .then((data) => setCount(data.count || 0));
   }, []);
-  // console.log(count);
 
-  // const itemPerPage = 5;
   const numberOfPage = Math.ceil(count / itemPerPage) || 1;
   const pages = [...Array(numberOfPage).keys()];
 
-
-  const handelItemPerPage = e => {
-    const val=parseInt(e.target.value)
+  const handelItemPerPage = (e) => {
+    const val = parseInt(e.target.value);
     console.log(val);
-    setItemPerPage(val)
-    setCurrentPage(0)
-    
-  }
+    setItemPerPage(val);
+    setCurrentPage(0);
+  };
 
   const handelPreviousPage = () => {
     if (currentPage > 0) {
-      setCurrentPage(currentPage-1)
+      setCurrentPage(currentPage - 1);
     }
-  }
+  };
   const handelNextPage = () => {
-    if (currentPage < pages.length-1) {
-      setCurrentPage(currentPage+1)
+    if (currentPage < pages.length - 1) {
+      setCurrentPage(currentPage + 1);
     }
-  }
-
-
+  };
 
   return (
     <div className="container mx-auto ">
@@ -89,20 +81,29 @@ const [currentPage,setCurrentPage]=useState(0)
 
       {/* pagination */}
 
-      <div className="pagination">
-        <p>currentPage: {currentPage}</p>
+      <div className="pagination mt-10">
         <button onClick={handelPreviousPage}>Pre</button>
         {pages.map((page) => (
           <button
-            className={currentPage === page && "selected"}
-            onClick={() => setCurrentPage(page)} key={page}>{page}</button>
+            className={currentPage === page ? "selected" : undefined}
+            onClick={() => setCurrentPage(page)}
+            key={page}
+          >
+            {page}
+          </button>
         ))}
-<button onClick={handelNextPage}>Next</button>
-        <select className="bg-black" value={itemPerPage} onChange={handelItemPerPage} name="" id="">
+        <button onClick={handelNextPage}>Next</button>
+        <select
+          className="bg-[#0A1316] text-white btn"
+          value={itemPerPage}
+          onChange={handelItemPerPage}
+          name=""
+          id=""
+        >
           <option value="5">5</option>
           <option value="10">10</option>
           <option value="20">20</option>
-          <option value="50">50</option>
+          <option value="30">30</option>
         </select>
       </div>
     </div>

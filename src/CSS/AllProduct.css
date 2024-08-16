@@ -5,9 +5,9 @@
 
 .pagination button{
     margin-right: 10px;
-    padding: 10px;
+    padding: 13px;
     background-color: white;
-    
+border-radius: 5px ;
 }
 
 .pagination .selected{
