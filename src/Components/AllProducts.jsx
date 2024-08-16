@@ -9,14 +9,17 @@ const AllProducts = () => {
   const [itemPerPage, setItemPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(0);
   const [asc, setAsc] = useState(true);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     fetch(
-      `http://localhost:5000/allproducts?page=${currentPage}&size=${itemPerPage}&sort=${asc ? 'asc' : 'desc'}`
+      `http://localhost:5000/allproducts?page=${currentPage}&size=${itemPerPage}&sort=${
+        asc ? "asc" : "desc"
+      }&search=${search}`
     )
       .then((res) => res.json())
       .then((data) => setProducts(data));
-  }, [currentPage, itemPerPage, asc]);
+  }, [currentPage, itemPerPage, asc, search]);
 
   useEffect(() => {
     fetch("http://localhost:5000/productCount")
@@ -45,22 +48,43 @@ const AllProducts = () => {
     }
   };
 
+  const handelSearch = (e) => {
+    e.preventDefault();
+    const searchText = e.target.search.value;
+    setSearch(searchText);
+  };
+
   return (
     <div className="container mx-auto px-3">
       <h1 className="my-10 text-center font-bold lg:text-5xl md:text-4xl text-white">
         Find Your Dream Products{" "}
       </h1>
 
-      <div className="mb-10 flex">
-      <div >
-        <button className="btn" onClick={() => setAsc(!asc)}>
-          {asc ? "Price: High to Low" : "Price: Low to High"}
-        </button>
+      <div className="mb-10 flex gap-6">
+        {/* price asc desc button */}
+        <div>
+          <button
+            className="btn text-[16px] font-bold"
+            onClick={() => setAsc(!asc)}
+          >
+            {asc ? "Price: High to Low" : "Price: Low to High"}
+          </button>
         </div>
-        
+        {/* search field */}
+        <div>
+          <form className="flex" onSubmit={handelSearch}>
+            <input
+              type="text"
+              name="search"
+              placeholder="product name or Category"
+              className="input input-bordered w-full max-w-xs"
+            />
+            <input type="submit" value="Search" className="btn" />
+          </form>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {products.map((product) => (
           <div
             key={product._id}
@@ -73,23 +97,21 @@ const AllProducts = () => {
                 alt={product.name}
               />
             </figure>
-            <div className="card-body  ">
+            <div className="card-body">
               <h2 className="card-title">{product.product_name}</h2>
               <div className="flex justify-around items-center">
                 <p>
-                  {" "}
                   <span className="text-[16px] font-bold">Date:</span>{" "}
                   {product.Date}
                 </p>
                 <p>
-                  {" "}
                   <span className="text-[16px] font-bold">Rating:</span>{" "}
                   {product.Ratings}
                 </p>
                 <p className="text-[16px] font-bold">${product.Price}</p>
               </div>
 
-              <div className="flex ">
+              <div className="flex">
                 <p>
                   <span className="text-[16px] font-bold">Category:</span>{" "}
                   {product.Category}
@@ -120,8 +142,6 @@ const AllProducts = () => {
           className="bg-[#0A1316] text-white btn"
           value={itemPerPage}
           onChange={handelItemPerPage}
-          name=""
-          id=""
         >
           <option value="5">5</option>
           <option value="10">10</option>
@@ -134,4 +154,3 @@ const AllProducts = () => {
 };
 
 export default AllProducts;
-
