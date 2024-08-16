@@ -6,7 +6,8 @@
         "Price": 39.99,
         "Category": "Electronics",
         "Ratings": 4.5,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-06-23",
         "Time": "10:00:00"
     },
     {
@@ -16,7 +17,8 @@
         "Price": 29.99,
         "Category": "Electronics",
         "Ratings": 4.5,
-        "Date": "2024-08-15",
+        "Brand": "logitech",
+        "Date": "2024-07-15",
         "Time": "10:15:30"
     },
     {
@@ -26,7 +28,8 @@
         "Price": 59.99,
         "Category": "Electronics",
         "Ratings": 4.7,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-05-14",
         "Time": "10:20:30"
     },
     {
@@ -36,7 +39,8 @@
         "Price": 14.99,
         "Category": "Accessories",
         "Ratings": 4.3,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-08-03",
         "Time": "10:25:30"
     },
     {
@@ -46,7 +50,8 @@
         "Price": 39.99,
         "Category": "Electronics",
         "Ratings": 4.6,
-        "Date": "2024-08-15",
+        "Brand": "logitech",
+        "Date": "2024-07-25",
         "Time": "10:30:30"
     },
     {
@@ -56,7 +61,8 @@
         "Price": 49.99,
         "Category": "Wearables",
         "Ratings": 4.8,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-04-12",
         "Time": "10:35:30"
     },
     {
@@ -66,7 +72,8 @@
         "Price": 24.99,
         "Category": "Accessories",
         "Ratings": 4.4,
-        "Date": "2024-08-15",
+        "Brand": "anker",
+        "Date": "2024-06-08",
         "Time": "10:40:30"
     },
     {
@@ -76,7 +83,8 @@
         "Price": 89.99,
         "Category": "Electronics",
         "Ratings": 4.7,
-        "Date": "2024-08-15",
+        "Brand": "corsair",
+        "Date": "2024-05-21",
         "Time": "10:45:30"
     },
     {
@@ -86,7 +94,8 @@
         "Price": 19.99,
         "Category": "Home Automation",
         "Ratings": 4.5,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-07-10",
         "Time": "10:50:30"
     },
     {
@@ -96,7 +105,8 @@
         "Price": 79.99,
         "Category": "Electronics",
         "Ratings": 4.6,
-        "Date": "2024-08-15",
+        "Brand": "gopro",
+        "Date": "2024-06-30",
         "Time": "10:55:30"
     },
     {
@@ -106,7 +116,8 @@
         "Price": 29.99,
         "Category": "Accessories",
         "Ratings": 4.4,
-        "Date": "2024-08-15",
+        "Brand": "logitech",
+        "Date": "2024-08-01",
         "Time": "11:00:30"
     },
     {
@@ -116,7 +127,8 @@
         "Price": 49.99,
         "Category": "Electronics",
         "Ratings": 4.6,
-        "Date": "2024-08-15",
+        "Brand": "apple",
+        "Date": "2024-07-28",
         "Time": "11:05:30"
     },
     {
@@ -126,7 +138,8 @@
         "Price": 129.99,
         "Category": "Home Automation",
         "Ratings": 4.7,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-06-19",
         "Time": "11:10:30"
     },
     {
@@ -136,7 +149,8 @@
         "Price": 299.99,
         "Category": "Electronics",
         "Ratings": 4.8,
-        "Date": "2024-08-15",
+        "Brand": "logitech",
+        "Date": "2024-07-05",
         "Time": "11:15:30"
     },
     {
@@ -146,7 +160,8 @@
         "Price": 34.99,
         "Category": "Kitchen Appliances",
         "Ratings": 4.5,
-        "Date": "2024-08-15",
+        "Brand": "hamilton",
+        "Date": "2024-05-10",
         "Time": "11:20:30"
     },
     {
@@ -156,7 +171,8 @@
         "Price": 29.99,
         "Category": "Electronics",
         "Ratings": 4.4,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-06-15",
         "Time": "11:25:30"
     },
     {
@@ -166,267 +182,63 @@
         "Price": 249.99,
         "Category": "Home Appliances",
         "Ratings": 4.7,
-        "Date": "2024-08-15",
+        "Brand": "sony",
+        "Date": "2024-07-22",
         "Time": "11:30:30"
     },
     {
-        "product_name": "Noise-Canceling Headphones",
-        "product_image": "https://i.ibb.co/hgSNK42/noise-cancelling-headphone-2048px-0862-2x1-1.webp",
-        "Description": "Premium noise-canceling headphones with superior sound.",
-        "Price": 199.99,
-        "Category": "Electronics",
-        "Ratings": 4.8,
-        "Date": "2024-08-15",
+        "product_name": "Electric Toothbrush",
+        "product_image": "https://i.ibb.co/Ks2v1Xh/11-Hxeghy-QHd8-L-Acmpshutterstock-1770243951.webp",
+        "Description": "Rechargeable electric toothbrush with multiple modes.",
+        "Price": 59.99,
+        "Category": "Personal Care",
+        "Ratings": 4.6,
+        "Brand": "logitech",
+        "Date": "2024-06-05",
         "Time": "11:35:30"
     },
     {
-        "product_name": "Smartwatch",
-        "product_image": "https://i.ibb.co/hdNdqXm/Fk-Gwe-Me-B7hd-Pga-SFQdgsfj-1200-80.jpg",
-        "Description": "Water-resistant smartwatch with fitness tracking features.",
-        "Price": 149.99,
-        "Category": "Wearables",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
+        "product_name": "Noise-Cancelling Headphones",
+        "product_image": "https://i.ibb.co/hD2XtB2/images-2.jpg",
+        "Description": "Over-ear noise-cancelling headphones with long battery life.",
+        "Price": 199.99,
+        "Category": "Electronics",
+        "Ratings": 4.8,
+        "Brand": "apple",
+        "Date": "2024-04-25",
         "Time": "11:40:30"
     },
     {
-        "product_name": "Portable Bluetooth Speaker",
-        "product_image": "https://i.ibb.co/hXsYJWx/portablebluetoothspeakers-2048px-3321-2x1-1.webp",
-        "Description": "Compact portable speaker with deep bass and long battery life.",
-        "Price": 39.99,
-        "Category": "Electronics",
-        "Ratings": 4.5,
-        "Date": "2024-08-15",
+        "product_name": "Smartwatch",
+        "product_image": "https://i.ibb.co/gzvB7Xp/1.jpg",
+        "Description": "Feature-rich smartwatch with fitness tracking.",
+        "Price": 199.99,
+        "Category": "Wearables",
+        "Ratings": 4.7,
+        "Brand": "apple",
+        "Date": "2024-08-12",
         "Time": "11:45:30"
     },
     {
-        "product_name": "Smart Door Lock",
-        "product_image": "https://i.ibb.co/sRCmwmg/images.jpg",
-        "Description": "Secure smart door lock with keyless entry and app control.",
-        "Price": 179.99,
+        "product_name": "Home Security Camera",
+        "product_image": "https://i.ibb.co/Kbt6HPr/download.jpg",
+        "Description": "1080p home security camera with night vision and two-way audio.",
+        "Price": 99.99,
         "Category": "Home Automation",
-        "Ratings": 4.7,
-        "Date": "2024-08-15",
+        "Ratings": 4.6,
+        "Brand": "ring",
+        "Date": "2024-05-30",
         "Time": "11:50:30"
     },
     {
-        "product_name": "Electric Toothbrush",
-        "product_image": "https://i.ibb.co/98s5sd5/images-1.jpg",
-        "Description": "Rechargeable electric toothbrush with multiple modes.",
-        "Price": 49.99,
-        "Category": "Personal Care",
-        "Ratings": 4.5,
-        "Date": "2024-08-15",
+        "product_name": "Espresso Machine",
+        "product_image": "https://i.ibb.co/WxNZJng/Screenshot-1.jpg",
+        "Description": "Professional-grade espresso machine with milk frother.",
+        "Price": 249.99,
+        "Category": "Kitchen Appliances",
+        "Ratings": 4.7,
+        "Brand": "apple",
+        "Date": "2024-08-05",
         "Time": "11:55:30"
-    },
-    {
-        "product_name": "Smart Air Purifier",
-        "product_image": "https://i.ibb.co/2q1Yh6b/0f3be834-e490-4021-ab21-0759ec861aa8-Next-Generation-Io-T-Enabled-Air-Purifier.jpg",
-        "Description": "Smart air purifier with real-time air quality monitoring.",
-        "Price": 129.99,
-        "Category": "Home Appliances",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "12:00:30"
-    },
-    {
-        "product_name": "Waterproof Bluetooth Speaker",
-        "product_image": "https://i.ibb.co/Qd88sPv/best-waterproof-bluetooth-speakers-in-india.jpg",
-        "Description": "Waterproof portable speaker with Bluetooth 5.0.",
-        "Price": 49.99,
-        "Category": "Electronics",
-        "Ratings": 4.7,
-        "Date": "2024-08-15",
-        "Time": "12:05:30"
-    },
-    {
-        "product_name": "Wireless Gaming Mouse",
-        "product_image": "https://i.ibb.co/x20jgHd/images-2.jpg",
-        "Description": "Ergonomic wireless gaming mouse with adjustable DPI.",
-        "Price": 69.99,
-        "Category": "Electronics",
-        "Ratings": 4.5,
-        "Date": "2024-08-15",
-        "Time": "12:10:30"
-    },
-    {
-        "product_name": "Smart Coffee Maker",
-        "product_image": "https://i.ibb.co/mXD8WN7/images-3.jpg",
-        "Description": "Wi-Fi enabled coffee maker with voice control and scheduling.",
-        "Price": 99.99,
-        "Category": "Kitchen Appliances",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "12:15:30"
-    },
-    {
-        "product_name": "Bluetooth Soundbar",
-        "product_image": "https://i.ibb.co/St2TbYv/How-to-pair-Bluetooth-soundbar-to-Fire-TV.jpg",
-        "Description": "High-definition soundbar with Bluetooth and subwoofer.",
-        "Price": 149.99,
-        "Category": "Electronics",
-        "Ratings": 4.7,
-        "Date": "2024-08-15",
-        "Time": "12:20:30"
-    },
-    {
-        "product_name": "Robot Mop",
-        "product_image": "https://i.ibb.co/3r04VkB/Bto2-Fr-HJE9-RWid-D7b55-R5-R.jpg",
-        "Description": "Smart robot mop with water tank and voice control.",
-        "Price": 199.99,
-        "Category": "Home Appliances",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "12:25:30"
-    },
-    {
-        "product_name": "Gaming Headset",
-        "product_image": "https://i.ibb.co/qmTwmn3/Bshb-C2w-UURxs5-XX5c-XXEm-C.jpg",
-        "Description": "Over-ear gaming headset with surround sound and noise-canceling mic.",
-        "Price": 79.99,
-        "Category": "Electronics",
-        "Ratings": 4.7,
-        "Date": "2024-08-15",
-        "Time": "12:30:30"
-    },
-    {
-        "product_name": "Electric Pressure Cooker",
-        "product_image": "https://i.ibb.co/PCgT1Sf/images-4.jpg",
-        "Description": "Multi-functional electric pressure cooker with 14 cooking programs.",
-        "Price": 89.99,
-        "Category": "Kitchen Appliances",
-        "Ratings": 4.8,
-        "Date": "2024-08-15",
-        "Time": "12:35:30"
-    },
-    {
-        "product_name": "Wireless Security Camera",
-        "product_image": "https://i.ibb.co/9ytMgKX/images-5.jpg",
-        "Description": "1080p wireless security camera with night vision and motion detection.",
-        "Price": 99.99,
-        "Category": "Home Security",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "12:40:30"
-    },
-    {
-        "product_name": "Smart Doorbell",
-        "product_image": "https://i.ibb.co/BjfDD6X/Header-Image.jpg",
-        "Description": "Wi-Fi enabled video doorbell with two-way audio.",
-        "Price": 129.99,
-        "Category": "Home Security",
-        "Ratings": 4.7,
-        "Date": "2024-08-15",
-        "Time": "12:45:30"
-    },
-    {
-        "product_name": "Cordless Vacuum Cleaner",
-        "product_image": "https://i.ibb.co/HhsHpwQ/images-7.jpg",
-        "Description": "Lightweight cordless vacuum cleaner with powerful suction.",
-        "Price": 149.99,
-        "Category": "Home Appliances",
-        "Ratings": 4.5,
-        "Date": "2024-08-15",
-        "Time": "12:50:30"
-    },
-    {
-        "product_name": "Electric Grill",
-        "product_image": "https://i.ibb.co/GPV3ghs/62eebc9060bd-electric-grill-veggies.jpg",
-        "Description": "Smokeless electric grill with adjustable temperature settings.",
-        "Price": 69.99,
-        "Category": "Kitchen Appliances",
-        "Ratings": 4.4,
-        "Date": "2024-08-15",
-        "Time": "12:55:30"
-    },
-    {
-        "product_name": "Smart Wi-Fi Plug",
-        "product_image": "https://i.ibb.co/nnYs2r1/gm-706f4b4d-ac8e-4ef5-a3df-8abaf37652b3-smart-plugsnewsmain.jpg",
-        "Description": "Smart plug with Wi-Fi control and voice assistant compatibility.",
-        "Price": 19.99,
-        "Category": "Home Automation",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "13:00:30"
-    },
-    {
-        "product_name": "Electric Scooter",
-        "product_image": "https://i.ibb.co/CmCmzQx/scooter-gear-3-Front-3-4.webp",
-        "Description": "Foldable electric scooter with 25km range and 15mph top speed.",
-        "Price": 349.99,
-        "Category": "Outdoor",
-        "Ratings": 4.7,
-        "Date": "2024-08-15",
-        "Time": "13:05:30"
-    },
-    {
-        "product_name": "Air Fryer",
-        "product_image": "https://i.ibb.co/pJZqRGh/images.jpg",
-        "Description": "Digital air fryer with touchscreen and 8 cooking presets.",
-        "Price": 99.99,
-        "Category": "Kitchen Appliances",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "13:10:30"
-    },
-    {
-        "product_name": "Wireless Bluetooth Adapter",
-        "product_image": "https://i.ibb.co/PTLwF7J/images-1.jpg",
-        "Description": "Wireless Bluetooth adapter for audio devices with 3.5mm jack.",
-        "Price": 14.99,
-        "Category": "Electronics",
-        "Ratings": 4.3,
-        "Date": "2024-08-15",
-        "Time": "13:15:30"
-    },
-    {
-        "product_name": "Smart Scale",
-        "product_image": "https://i.ibb.co/5BPX7mF/945694-The-6-Best-Smart-Scales-of-2021-1200x628-Facebook-1200x628.jpg",
-        "Description": "Bluetooth smart scale with body composition analysis.",
-        "Price": 49.99,
-        "Category": "Personal Care",
-        "Ratings": 4.5,
-        "Date": "2024-08-15",
-        "Time": "13:20:30"
-    },
-    {
-        "product_name": "Smart Baby Monitor",
-        "product_image": "https://i.ibb.co/T8SmbF2/images-2.jpg",
-        "Description": "Smart baby monitor with HD camera and two-way audio.",
-        "Price": 129.99,
-        "Category": "Baby Products",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "13:25:30"
-    },
-    {
-        "product_name": "Electric Heated Blanket",
-        "product_image": "https://i.ibb.co/5j682h5/electricblankets-2048px-3638.webp",
-        "Description": "Electric heated blanket with adjustable heat settings.",
-        "Price": 59.99,
-        "Category": "Home & Living",
-        "Ratings": 4.5,
-        "Date": "2024-08-15",
-        "Time": "13:30:30"
-    },
-    {
-        "product_name": "Noise-Canceling Earplugs",
-        "product_image": "https://i.ibb.co/6JXHNgg/images-3.jpg",
-        "Description": "Reusable noise-canceling earplugs for sleep and travel.",
-        "Price": 19.99,
-        "Category": "Personal Care",
-        "Ratings": 4.4,
-        "Date": "2024-08-15",
-        "Time": "13:35:30"
-    },
-    {
-        "product_name": "Smart Garage Door Opener",
-        "product_image": "https://i.ibb.co/LNQM1sG/myq-hero-mobile.png",
-        "Description": "Wi-Fi enabled garage door opener with app control.",
-        "Price": 79.99,
-        "Category": "Home Automation",
-        "Ratings": 4.6,
-        "Date": "2024-08-15",
-        "Time": "13:40:30"
     }
 ]
