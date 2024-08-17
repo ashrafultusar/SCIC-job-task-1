@@ -1,4 +1,9 @@
-import { Link, useLoaderData, useLocation, useNavigate } from "react-router-dom";
+import {
+  Link,
+  useLoaderData,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProviders";
@@ -6,33 +11,40 @@ import { Helmet } from "react-helmet-async";
 import { toast } from "react-toastify";
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
-const navigate=useNavigate()
-const location=useLocation()
-  const from=location.state?.from?.pathname || "/"
-  
-  
+  const { signIn, signInGoogle } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
     const email = form.email.value;
     const password = form.password.value;
     console.log(email, password);
-    signIn(email, password)
-      .then(result => {
-        const user = result.user;
-        console.log(user);
-        // toast.success("login successfully")
-        navigate('/')
-})
+    signIn(email, password).then((result) => {
+      const user = result.user;
+      console.log(user);
 
+      navigate("/");
+    });
+  };
+
+  // google signin
+  const googleSignIn = async () => {
+    try {
+      await signInGoogle();
+      navigate(from);
+    } catch (err) {
+      // console.log(err);
+    }
   };
 
   return (
     <div>
-       <Helmet>
+      <Helmet>
         <title>EchoMart | Login</title>
-</Helmet>
+      </Helmet>
       <div
         data-aos="fade-up"
         className="flex justify-center items-center mt-4 mb-6 px-2"
@@ -105,6 +117,7 @@ const location=useLocation()
           <button
             //   disabled={loading}
             //   onClick={handleGoogleSignIn}
+            onClick={googleSignIn}
             className="disabled:cursor-not-allowed flex justify-center items-center space-x-2 border m-3 p-2 border-gray-300 hover:border-redM transition border-rounded cursor-pointer"
           >
             <FcGoogle size={32} />

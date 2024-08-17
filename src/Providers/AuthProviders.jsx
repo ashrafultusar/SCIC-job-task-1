@@ -5,12 +5,13 @@ import {
   getAuth,
   onAuthStateChanged,
   signInWithEmailAndPassword,
+  signInWithPopup,
   signOut,
   updateProfile,
 } from "firebase/auth";
 import { app } from "../Firebase/firebase.confige";
 
-const auth = getAuth(app); 
+const auth = getAuth(app);  
 export const AuthContext = createContext(null);
 
 const AuthProviders = ({ children }) => {
@@ -26,6 +27,13 @@ const AuthProviders = ({ children }) => {
     setLoading(true);
     return signInWithEmailAndPassword(auth,email, password);
   };
+
+ // google login
+ const googleProvider = new GoogleAuthProvider();
+ const signInGoogle = () => {
+   setLoading(true);
+   return signInWithPopup(auth, googleProvider);
+ };
 
   const logOut = () => {
     setLoading(true);
@@ -55,6 +63,7 @@ const AuthProviders = ({ children }) => {
     user,
     loading,
     createUser,
+    signInGoogle,
     signIn,
     logOut,
     updateUserProfile, 

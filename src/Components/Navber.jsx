@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { IoPersonCircleOutline } from "react-icons/io5";
 import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProviders";
 
@@ -73,7 +72,8 @@ const Navber = () => {
                 <div className="w-14 rounded-full">
                   <img
                     alt="Tailwind CSS Navbar component"
-                    src={user.photoURL}
+                    src={user?.photoURL
+                    }
                   />
                 </div>
               </div>

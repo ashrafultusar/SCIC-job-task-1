@@ -1,7 +1,8 @@
-// export default AllProducts;
+
 import "../CSS/AllProduct.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { MdArrowOutward } from "react-icons/md";
 
 const AllProducts = () => {
   const [products, setProducts] = useState([]);
@@ -20,11 +21,16 @@ const AllProducts = () => {
         asc ? "asc" : "desc"
       }&search=${search}&brand=${brand}&category=${category}&priceRange=${priceRange}`
     )
+    // fetch(
+    //   `http://localhost:5000/allproducts?page=${currentPage}&size=${itemPerPage}&sort=${
+    //     asc ? "asc" : "desc"
+    //   }&search=${search}&brand=${brand}&category=${category}&priceRange=${priceRange}`
+    // )
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, [currentPage, itemPerPage, asc, search, brand, category, priceRange]);
 
-  console.log(products);
+  // console.log(products);
 
   useEffect(() => {
     fetch("https://scic-job-task-server-dusky.vercel.app/productCount")
@@ -187,8 +193,11 @@ const AllProducts = () => {
                   <span className="text-[16px] font-bold">Category:</span>{" "}
                   {product.Category}
                 </p>
-                <Link>
-                  <button className="text-xl text-red-500">view more</button>
+                <Link to={`/product/${product._id}`}>
+                  <button className="text-[14px] px-2 py-1 rounded-lg bg-green-500 font-bold flex items-center ">
+                    View More
+                    <MdArrowOutward />
+                  </button>
                 </Link>
               </div>
             </div>

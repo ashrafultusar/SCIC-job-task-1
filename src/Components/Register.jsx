@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useForm } from "react-hook-form";
 import { Helmet } from "react-helmet-async";
@@ -6,23 +6,37 @@ import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProviders";
 
 const Register = () => {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
-    reset,
     formState: { errors },
   } = useForm();
 
-const {createUser}=useContext(AuthContext)
+  const { createUser,signInGoogle } = useContext(AuthContext);
 
   const onSubmit = (data) => {
     console.log(data);
-createUser(data.email, data.password)
-  .then(result => {
-    const loggedUser = result.user
-    console.log(loggedUser);
-})
+    createUser(data.email, data.password).then((result) => {
+      const loggedUser = result.user;
+      console.log(loggedUser);
+    });
+    navigate("/");
   };
+
+  // google signin
+  const googleSignIn =async () => {
+    try {
+      await signInGoogle()
+      navigate('/')
+     
+
+    } catch (err) {
+      // 
+      // console.log(err)
+    
+    }
+  }
 
   return (
     <div>
@@ -146,6 +160,7 @@ createUser(data.email, data.password)
           <button
             //   disabled={loading}
             //   onClick={handleGoogleSignIn}
+            onClick={googleSignIn}
             className="disabled:cursor-not-allowed flex justify-center items-center space-x-2 border m-3 p-2 border-gray-300 hover:border-redM transition border-rounded cursor-pointer"
           >
             <FcGoogle size={32} />
@@ -159,7 +174,7 @@ createUser(data.email, data.password)
               to="/login"
               className="hover:underline hover:text-rose-500 text-redM"
             >
-             Login
+              Login
             </Link>
           </p>
         </div>
