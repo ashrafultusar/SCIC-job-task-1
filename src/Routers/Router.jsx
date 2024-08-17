@@ -25,6 +25,6 @@ export const router = createBrowserRouter([
   {
     path: '/product/:id',
     element: <ProductDetails></ProductDetails>,
-    loader: ({params})=> fetch(`http://localhost:5000/product/${params.id}`)
+    loader: ({params})=> fetch(`https://scic-job-task-server-dusky.vercel.app/product/${params.id}`)
   }
 ]);
