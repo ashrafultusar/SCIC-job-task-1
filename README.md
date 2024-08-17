@@ -1,8 +1,29 @@
-# React + Vite
+Link: https://scic-job-task-1.web.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Run Your Local Computer
+Follow these steps to clone and run the project on your local machine.
 
-Currently, two official plugins are available:
+Prerequisites
+Make sure you have the following installed:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Node.js (which includes npm)
+MongoDB
+Firebase CLI (if needed for your project)
+Installation
+Clone the repository
+
+git clone https://github.com/yourusername/your-repo-name.git
+Navigate to the project directory
+
+cd your-repo-name
+3. **Install dependencies**
+
+npm install
+
+4. **Replace mongodb url**
+
+Replace placeholders like `yourusername` and `your-repo-name` with the actual values for your GitHub repository. Additionally, fill in the sections like "Description," "Deployment," "Usage," "Contributing," "License," and "Acknowledgments" with the relevant information for your project.
+
+4. **Set up environment variables**
+5. **Start the backend server**
+6. **Start the frontend development server**
