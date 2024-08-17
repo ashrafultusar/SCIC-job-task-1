@@ -16,7 +16,7 @@ const AllProducts = () => {
 
   useEffect(() => {
     fetch(
-      `http://localhost:5000/allproducts?page=${currentPage}&size=${itemPerPage}&sort=${
+      `https://scic-job-task-server-dusky.vercel.app/allproducts?page=${currentPage}&size=${itemPerPage}&sort=${
         asc ? "asc" : "desc"
       }&search=${search}&brand=${brand}&category=${category}&priceRange=${priceRange}`
     )
@@ -27,7 +27,7 @@ const AllProducts = () => {
   console.log(products);
 
   useEffect(() => {
-    fetch("http://localhost:5000/productCount")
+    fetch("https://scic-job-task-server-dusky.vercel.app/productCount")
       .then((res) => res.json())
       .then((data) => setCount(data.count || 0));
   }, []);
@@ -74,7 +74,7 @@ const AllProducts = () => {
           {/* price asc desc button */}
           <div>
             <button
-              className="btn text-[16px] font-bold"
+              className="btn md:text-[16px] font-bold"
               onClick={() => setAsc(!asc)}
             >
               {asc ? "Price: High to Low" : "Price: Low to High"}
@@ -94,7 +94,7 @@ const AllProducts = () => {
           </div>
         </div>
 
-        <div className="flex gap-4 text-black mb-10">
+        <div className="md:flex items-center space-y-2 gap-4 text-black mb-10">
           {/* brand name */}
           <div>
             <select
